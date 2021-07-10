@@ -1,0 +1,7 @@
+
+
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+num = input()
+from cmath import phase
+print(abs(complex(num)))
+print(phase(complex(num)))
